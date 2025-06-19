@@ -1,4 +1,5 @@
 {
+  "homepage": "https://erit12.github.io/caras-typescript/",
   "name": "caras-landing",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.1.19",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -21,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
