@@ -3,9 +3,9 @@ import { FooterStyle } from "./style";
 
 
 export const Footer = () => (
-  <FooterStyle>
+  <FooterStyle aria-label="Pie de página con información de contacto">
     <h3>Síguenos en redes sociales</h3>
-    <div>
+    <nav role="navigation" aria-label="Redes sociales">
       <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
         <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook"/>
       </a>
@@ -33,7 +33,7 @@ export const Footer = () => (
           alt="TikTok"
         />
       </a>
-    </div>
+    </nav>
     <p>&copy; 2025 CARAS. All rights reserved.</p>
   </FooterStyle>
 );

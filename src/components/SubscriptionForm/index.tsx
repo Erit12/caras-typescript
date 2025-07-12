@@ -28,10 +28,10 @@ export const SubscriptionForm = () => {
       <LegendTime>
         🕒 ¡Toma 10 segundos! Y disfrútalo durante 12 magnificos meses.
       </LegendTime>
-      <FormNewsletter onSubmit={handleSubmit}>
+      <FormNewsletter onSubmit={handleSubmit} aria-label="Formulario de suscripción">
         <input name="name" value={form.name} onChange={handleChange} placeholder="Nombre" />
-        <input name="email" value={form.email} onChange={handleChange} placeholder="Correo electrónico" />
-        <button type="submit">SUSCRIBETE GRATIS</button>
+        <input name="email" value={form.email} onChange={handleChange} placeholder="Correo electrónico" aria-required="true"/>
+        <button type="submit" aria-label="Enviar suscripción">SUSCRIBETE GRATIS</button>
       </FormNewsletter>
     </ArticleContainer>
     </>

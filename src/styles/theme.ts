@@ -21,7 +21,7 @@ declare module 'styled-components' {
 export const Theme = {
   colors: {
     backColor: '#f9f9f9',
-    logoColor: '#ed1e1e',
+    logoColor: '#df1c1c',
     bgColor: '#0e0d0d',
     fontColor: '#333',
     darkColor: '#000',

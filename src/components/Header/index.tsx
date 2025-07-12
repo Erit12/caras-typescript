@@ -7,7 +7,7 @@ import { HeaderContainer, Logo, LogoContainer, SectionContainer, TitleH1, TitleH
 export const Header = () => (
   <HeaderContainer>
     <LogoContainer>
-      <Logo src={logo} alt="CARAS logo" />
+      <Logo src={logo} alt="Logotipo de empresa CARAS" />
     </LogoContainer>
     <SectionContainer>
       <TitleH1>Suscribete a las Newsletter de CARAS</TitleH1>

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-const ArticleContainer = styled.form`
+const ArticleContainer = styled.article`
   width: 100%;
 `;
 

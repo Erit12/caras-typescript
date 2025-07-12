@@ -36,7 +36,7 @@ const persons: Person [] = [
 ];
 
 export const Testimonials = () => (
-  <TestimonialSection>
+  <TestimonialSection  aria-label="Opiniones de clientes"> 
     <h2>Lo que dicen nuestros lectores</h2>
     <div>
       {persons.map ( person => (

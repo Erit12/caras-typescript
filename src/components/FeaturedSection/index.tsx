@@ -4,11 +4,11 @@ import { NewsletterSection, NewsletterArticle, LegendH2, LegendH3, ListContainer
 
 export const FeaturedSection = () => (
   <>
-  <NewsletterSection>
-    <NewsletterArticle>
+  <NewsletterSection >  
+    <NewsletterArticle aria-label="Invitacion a realizar la subscripcion">   
       <LegendH2>¡No te pierdas lo mejor del entretenimiento!</LegendH2>
       <LegendH3>Suscríbete al newsletter exclusivo de <em>CARAS</em></LegendH3>
-      <ListContainer>
+      <ListContainer aria-label="Beneficios al suscribirse">  
         <ListElement>Noticias frescas sobre cine, series, música y celebridades</ListElement>
         <ListElement>Entrevistas con tus artistas favoritos</ListElement>
         <ListElement>Recomendaciones semanales de lo que no te puedes perder</ListElement>

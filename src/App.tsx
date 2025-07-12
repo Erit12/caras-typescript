@@ -15,9 +15,14 @@ const App = () => (
   <ThemeProvider theme={Theme}>
     <GlobalStyles />
     <Header />
-      <FeaturedSection />
-
-    <Testimonials />
+    <main role="main">
+      <section aria-label="Sección de características destacadas">
+        <FeaturedSection />
+      </section>
+      <section aria-label="Testimonios de clientes">
+        <Testimonials />
+      </section>
+    </main>
     <Footer />
   </ThemeProvider>
 );
