@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/caras-typescript/static/css/main.e6c13ad2.css",
-    "main.js": "/caras-typescript/static/js/main.0bddc995.js",
+    "main.js": "/caras-typescript/static/js/main.7942bdaa.js",
     "static/js/453.4378d06d.chunk.js": "/caras-typescript/static/js/453.4378d06d.chunk.js",
-    "static/media/fondo_destacado.jpg": "/caras-typescript/static/media/fondo_destacado.40593378b95c9c9c439a.jpg",
+    "static/media/fondo_destacado.webp": "/caras-typescript/static/media/fondo_destacado.f9600670e4e43a0cca85.webp",
     "static/media/Logo 2.png": "/caras-typescript/static/media/Logo 2.d7ebfb9271db0031e345.png",
     "index.html": "/caras-typescript/index.html",
     "main.e6c13ad2.css.map": "/caras-typescript/static/css/main.e6c13ad2.css.map",
-    "main.0bddc995.js.map": "/caras-typescript/static/js/main.0bddc995.js.map",
+    "main.7942bdaa.js.map": "/caras-typescript/static/js/main.7942bdaa.js.map",
     "453.4378d06d.chunk.js.map": "/caras-typescript/static/js/453.4378d06d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.0bddc995.js"
+    "static/js/main.7942bdaa.js"
   ]
 }
