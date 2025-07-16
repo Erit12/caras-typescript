@@ -9,7 +9,7 @@ const FooterStyle = styled.footer`
     margin-bottom: 20px;
     font-size: clamp(1.2rem, 1.5rem, 1.6rem);
   }
-  div{
+  nav{
     margin-bottom: 25px;
     a{
       margin: 0 10px;
