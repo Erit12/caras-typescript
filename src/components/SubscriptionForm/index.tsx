@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ArticleContainer, ImageFeature, LegendTime, FormNewsletter } from './style';
-import bgImg from '../../assets/fondo_destacado.jpg';
+import bgImg from '../../assets/fondo_destacado.webp';
 
 interface FormData {
   name: string;

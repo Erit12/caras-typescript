@@ -11,8 +11,7 @@ export const Header = () => (
     </LogoContainer>
     <SectionContainer>
       <TitleH1>Suscribete a las Newsletter de CARAS</TitleH1>
-      <TitleH2>Y descubre las últimas tendencias y análisis profundos en CARAS, tu
-      fuente confiable de información actualizada en México</TitleH2>
+      <TitleH2>Descubre el mundo de las celebridades y el estilo de vida con acceso exclusivo, antes que nadie.</TitleH2>
     </SectionContainer>
   </HeaderContainer>
 );
